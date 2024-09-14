@@ -1,0 +1,153 @@
+body{
+    font-family: Helvetica, Arial, sans-serif;
+    background-color: #e6f2ff;
+    margin: 0px;
+    font-size: 1.5vw;
+}
+
+body > header {
+    background-color: #99ccff;
+    color: white;
+    padding: 5px;
+    display: flex;
+    height: 10vh;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#left {
+    float: left;
+    padding-right: 15px;
+    padding-top: 15px;
+    border-radius: 8%;
+    box-shadow: -20px 20px blue;
+  }
+  
+#right {
+    float: right;
+    padding-left: 15px;
+    padding-top: 15px;
+    border-radius: 8%;
+    box-shadow: 20px 20px blue;
+  }
+
+#logo {
+    margin: 0px;
+    padding: 8px;
+    font-family: "Fredoka One", sans-serif;
+    background-color: #80bfff;
+    border: 3px #4da6ff;
+    box-shadow: 10px 10px 15px 5px #4da6ff;
+    /* width: 20%; */
+    border-radius: 10%;
+}
+
+body > header > nav > ul {
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+}
+
+body > header > nav > ul >li{
+    padding: 8px;
+    margin: 16px;
+}
+
+#home-select{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#home-page{
+    text-align: center;
+    padding: 15px;
+
+}
+
+/* .home-button-left{
+    text-decoration: none;
+    color: white;
+    position: absolute;
+    bottom: 210px;
+    left: 20px;
+}
+
+.home-button-center{
+    text-decoration: none;
+    color: white;
+    position: absolute;
+    bottom: 210px;
+    left: 480px;
+}
+
+.home-button-right{
+    text-decoration: none;
+    color: white;
+    position: absolute;
+    bottom: 210px;
+    right: 250px;
+} */
+
+.navbutton {
+    color: white;
+    text-decoration: none;
+    padding: 12px;
+    border: 1px solid white;
+    border-radius: 10%;
+}
+
+#main-header > a {
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    padding: 12px;
+    border: 1px solid darkblue;
+    border-radius: 10%;
+    background-color: blue;
+}
+
+body > main > div > section > article{
+    margin: auto;
+    width: 80%;
+}
+
+#title{
+    font-size: 2.5vw;
+}
+
+#side-bar{
+    list-style: none;
+}
+
+.side-button{
+    text-decoration: none;
+    color: white;
+}
+
+#main-content {
+    display: flex;
+}
+
+aside {
+    background-color: #80bfff;
+    padding: 20px;
+}
+
+#footer-ul {
+    display: flex;
+    list-style: none;
+}
+
+body > footer {
+    background-color: lightsalmon;
+    padding: 20px;
+}
+
+#footer-ul > div > li {
+    margin-left: 12px;
+}
+
+#footer-ul > div > li > a {
+    color: white;
+    text-decoration: none;
+} 
